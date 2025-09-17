@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar-container {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  background-color: black;
+  padding: 10px 20px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  position: absolute;
+}
+.navbar-container > ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  padding: 1rem 2rem;
+  color: white;
+}
+
+.navbar-container > ul > li {
+  letter-spacing: 0.1rem;
+}
+
+.home-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: rgb(245, 234, 234);
+  background-image: url("./images/marcus_pc.jpg");
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  background-blend-mode: darken;
+}
+.home-container > h3 {
+  font-weight: 600;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.home-container > p {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1.25rem;
+  color: #eee;
+  border-bottom: 2px solid #eee;
+}
