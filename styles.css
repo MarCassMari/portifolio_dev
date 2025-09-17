@@ -40,14 +40,14 @@
   background-blend-mode: darken;
 }
 .home-container > h3 {
-  font-weight: 600;
-  text-align: center;
+  font-weight: 300;
+  text-align: end;
   padding-top: 50px;
 }
 
 .home-container > p {
   text-transform: uppercase;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 1.25rem;
   color: #eee;
   border-bottom: 2px solid #eee;
