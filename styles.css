@@ -33,6 +33,18 @@
   opacity: 100%;
   cursor: pointer;
 }
+.navbar-container ul li a {
+  color: white;
+}
+
+.navbar-container ul li a:visited {
+  color: white;
+}
+
+.navbar-container ul li a:hover {
+  color: #ccc;
+  text-decoration: none;
+}
 
 .home-container {
   height: 100vh;
