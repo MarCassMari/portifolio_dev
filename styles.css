@@ -63,7 +63,7 @@
 .home-container > h1 {
   font-weight: 400;
   font-size: 1.5rem;
-  margin-bottom: -860px;
+  margin-bottom: 360px;
 }
 
 .home-container p {
@@ -76,12 +76,12 @@
   padding-left: 8px;
   padding-right: 8px;
   letter-spacing: 0.35rem;
-  margin-bottom: 10px;
+  margin-bottom: -50px;
 }
 
 .section-container {
   width: 100%;
-  background-color: #111;
+  background-color: #1f1515;
   padding-top: 120px;
   padding-bottom: 120px;
 }
